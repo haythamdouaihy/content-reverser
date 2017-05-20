@@ -1,0 +1,26 @@
+{
+  "name": "content-reverser",
+  "private": "true",
+  "version": "0.0.1",
+  "description": "a file content reverser",
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --inline --colors --progress --display-cached --display-error-details",
+    "watch": "npm run build --watch",
+    "server": "webpack-dev-server --inline --colors --progress --display-error-details --display-cached --port 3003 --content-base src",
+    "start": "npm run server"
+  },
+  "keywords": [
+    "angular",
+    "js"
+  ],
+  "contributors": [
+    "Haytham Douaihy <haythamdouaihy@gmail.com>"
+  ],
+  "devDependencies": {
+    "typings": "^2.1.1"
+  }
+}
